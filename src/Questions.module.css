@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerdark {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #313e51;
+  color: #fefefe;
+  padding-left: 2rem;
+  position: relative;
+}
+.containerlight {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.question {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 4rem;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.options {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 3rem;
+}
+
+.optiondark {
+  width: 300px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #3c4c67;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.optiondark:hover,
+.optionlight:hover {
+  width: 300px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #3c4c67;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.optionlight {
+  width: 300px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 325px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #a529f5;
+  padding: 1rem;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  outline: none;
+  color: #fefefe;
+  border: none;
+  font-size: 1rem;
+}
+
+.switch {
+  position: absolute;
+  top: 2rem;
+  right: 6rem;
+}
+
+.darkmode {
+  position: absolute;
+  top: 2.2rem;
+  right: 4rem;
+}
+
+.lightmode {
+  position: absolute;
+  top: 2.2rem;
+  right: 10rem;
+}
